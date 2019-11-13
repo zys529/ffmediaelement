@@ -1,4 +1,7 @@
-﻿namespace Unosquare.FFME
+﻿[assembly: System.Windows.Markup.XmlnsPrefix("https://unosquare.github.io/ffmediaelement", "ffme")]
+[assembly: System.Windows.Markup.XmlnsDefinition("https://unosquare.github.io/ffmediaelement/", "Unosquare.FFME")]
+
+namespace Unosquare.FFME
 {
     using Common;
     using Engine;
